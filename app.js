@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const morgan = require('morgan');
 const {Product}= require('./model/Product');
-const{Cart} = require('./model/cart');
+const{Cart} = require('./model/Cart');
 
 
 // middleware
